@@ -1,0 +1,20 @@
+package com.z;
+
+public class TestXiongHuan {
+
+	public static void main(String[] args) {
+		
+		int line = 15;
+		for (int i = 1; i <= line; i++) {
+			//外层循环控制行
+			for (int j = 1; j <= i; j++) {
+				
+				//内层循环控制列
+				System.out.print("*");
+			}
+			
+			System.out.println("");
+		}
+		
+	}
+}
